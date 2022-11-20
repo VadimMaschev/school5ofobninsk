@@ -1,4 +1,22 @@
 button {
-    border: outset 1px blueviolet;
-    border-radius: 4cm;
+    background-color: white;
+    border: 0px;
+    text-align: center;
+    transition: 0.4s;
+}
+button:hover {
+    background-color: rgb(235, 232, 232);
+    transition: 0.1s;
+    border: 0px;
+    border-radius: 5px;
+    align-items: center;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stillbutton {
+    color: rgb(163, 159, 159)
+}
+article {
+    position: relative;
 }
