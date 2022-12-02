@@ -43,9 +43,13 @@ body {
     text-indent: 20px;
     
 }
-footer {
+.footerstart {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     background-color: #5C5C5C;
-    color: white;
+    text-indent:  
+    color: ;
 }
 .news {
     font-size: 30px;
@@ -71,5 +75,6 @@ footer {
     90% {opacity: 0.9;}
     100% {opacity: 1;}
 }
+
 
 
