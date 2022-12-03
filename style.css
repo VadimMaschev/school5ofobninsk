@@ -51,8 +51,10 @@ body {
     text-indent: 3cm ;
     color: white;
 }
-.footerend {
-    text-indent: 5cm;
+.footername {
+    font-size: 35px;
+    color: #c9c9c9;
+    margin-top: 30px;
 }
 .news {
     font-size: 30px;
