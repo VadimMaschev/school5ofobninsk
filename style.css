@@ -41,15 +41,22 @@ body {
     border: 0px;
     border-radius: 10px;
     text-indent: 20px;
-    
 }
 .footerstart {
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 25px;
     background-color: #5C5C5C;
-    text-indent:  
-    color: ;
+    text-indent: 3cm ;
+    color: white;
+}
+.footername {
+    font-size: 35px;
+    color: #c9c9c9;
+    margin-top: 30px;
+}
+.footerend {
+    text-indent: 14cm;
 }
 .news {
     font-size: 30px;
