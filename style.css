@@ -67,7 +67,7 @@ body {
    20% { opacity: 0.5;}
    30% {opacity: 0.8;}
    from {margin-left: 1300px}
-   to {margin-right: 600px}
+   to {margin-right: 300px}
 }
 @keyframes title {
     0% {opacity: 0;}
