@@ -12,7 +12,7 @@ button:hover {
     align-items: center;
 }
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .stillbutton {
     color: rgb(163, 159, 159)
