@@ -11,6 +11,11 @@ button {
     border-radius: 3cm;
     transition: 0.6s;
 }
+.pfooter {
+    text-indent: 2cm;
+    margin-top: 20px;
+    font-size: 60px;
+}
 .a1:hover {
     color: aquamarine;
     background-color: #c9c9c9;
