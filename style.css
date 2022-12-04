@@ -82,6 +82,7 @@ body {
 }
 .hrnews {
     width: 30cm;
+    margin-left: 20px;
 }
 @keyframes logo {
    0% {opacity: 0;}
