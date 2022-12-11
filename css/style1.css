@@ -4,7 +4,6 @@
 }
 .teachertable {
     background-color: rgb(224, 224, 224);
-    border-radius: 70px;
 }
 .redirect::after {
     content: ►;

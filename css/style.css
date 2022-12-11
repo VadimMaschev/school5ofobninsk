@@ -78,6 +78,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .justtext {
     background-color: #5C5C5C;
