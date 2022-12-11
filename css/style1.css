@@ -1,0 +1,16 @@
+.teacher_ {
+    border-radius: 70px;
+    width: 20cm;
+}
+.teachertable {
+    background-color: rgb(224, 224, 224);
+    border-radius: 70px;
+}
+.redirect::after {
+    content: ►;
+    color: rgb(166, 166, 255);
+}
+.teachers {
+    display: flex;
+    justify-content: space-between;
+}
