@@ -1,0 +1,13 @@
+.p1 {
+    background: linear-gradient(45deg, pink, yellow, #7ff77f);
+    color: black;
+    margin-left: 40px;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.img {
+    margin-left: 40px;
+    border-radius: 30px;
+}
