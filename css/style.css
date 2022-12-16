@@ -1,3 +1,14 @@
+@media screen and (min-width:1080px) {
+    .logo-school {
+        justify-content: flex-end;
+        width: 150px; 
+    }
+    .justtext {
+        font-size: 35px;
+        background-color: #5c5c5c;
+        color: white;
+    }
+}
 button {
     background-color: white;
     border: 0px;
@@ -7,24 +18,26 @@ button {
     text-align: center;
 }
 .a1 {
-    color: #5c5c5c;
-    background-color: #f1f1f1;
-    border: solid 3px black;
-    border-radius: 2cm;
-    transition: 0.6s;
+    animation: a1class 0.8s infinite;
     text-decoration: none;
+    transition: 0.5s;
+}
+.a1:hover {
+    color: rgb(52, 52, 255);
+    transition: 0.2s;
+}
+.a1:hover::after {
+    content: "➜";
+    transition: 0.4s;
+}
+.a1:active {
+    background: linear-gradient(45deg, coral, cyan, green, gold);
+    transition: 0.1s;
 }
 .pfooter {
     text-indent: 2cm;
     margin-top: 20px;
     font-size: 60px;
-}
-.a1:hover {
-    color: aquamarine;
-    background-color: #c9c9c9;
-    border: outset 3px rgb(161, 233, 255);
-    border-radius: 2cm;
-    transition: 0.3s;
 }
 button:hover {
     background-color: rgb(235, 232, 232);
@@ -43,6 +56,11 @@ button:hover {
     background-color: bisque;
     color: #5c5c5c;
     transition: 0.1s;
+}
+.containertext {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 button:active {
     background-color: rgb(204, 255, 192);
@@ -142,4 +160,17 @@ body {
     80% {opacity: 0.8;}
     90% {opacity: 0.9;}
     100% {opacity: 1;}
+}
+@keyframes a1class {
+    0% {color: aquamarine;}
+    10% {color: red;}
+    20% {color: greenyellow;}
+    30% {color: black;}
+    40% {color: antiquewhite;}
+    50% {color: #205da3;}
+    60% {color: coral;}
+    70% {color: darkolivegreen;}
+    80% {color: darkred;}
+    90% {color: darkgoldenrod;}
+    100% {color: darkorange;}
 }
