@@ -1,7 +1,8 @@
 @media screen and (min-width:1080px) {
     .logo-school {
         justify-content: flex-end;
-        width: 150px; 
+        width: 150px;
+        animation: none; 
     }
     .justtext {
         font-size: 35px;
