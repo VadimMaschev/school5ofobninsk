@@ -77,11 +77,9 @@ body {
     color: rgb(163, 159, 159)
 }
 .logo-school {
-    margin-right: 600px;
-    width: 400px;
-    animation-name: logo;
-    animation-duration: 1s;
-    animation-fill-mode: none;
+    justify-content: center;
+    animation: logo 1s ease-in;
+    width: 150px;
 }
 .b1 {
     background-color: white;
@@ -146,8 +144,7 @@ body {
    10% {opacity: 0.2;}
    20% { opacity: 0.5;}
    30% {opacity: 0.8;}
-   from {margin-left: 1300px}
-   to {margin-right: 600px}
+   100% {opacity: 1;}
 }
 @keyframes title {
     0% {opacity: 0;}
@@ -163,15 +160,7 @@ body {
     100% {opacity: 1;}
 }
 @keyframes a1class {
-    0% {color: aquamarine;}
-    10% {color: red;}
-    20% {color: greenyellow;}
-    30% {color: black;}
-    40% {color: antiquewhite;}
-    50% {color: #205da3;}
-    60% {color: coral;}
-    70% {color: darkolivegreen;}
-    80% {color: darkred;}
-    90% {color: darkgoldenrod;}
-    100% {color: darkorange;}
+    0% {color: black;}
+    50% {color: #3131ff;}
+    100% {color: black;}
 }
