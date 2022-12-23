@@ -1,0 +1,166 @@
+@media screen and (min-width:1080px) {
+    .logo-school {
+        justify-content: flex-end;
+        width: 150px;
+        animation: none; 
+    }
+    .justtext {
+        font-size: 35px;
+        background-color: #5c5c5c;
+        color: white;
+    }
+}
+button {
+    background-color: white;
+    border: 0px;
+    text-decoration: none;
+    color: #f1f1f1;
+    transition: 0.3s;
+    text-align: center;
+}
+.a1 {
+    animation: a1class 0.8s infinite;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.a1:hover {
+    color: rgb(52, 52, 255);
+    transition: 0.2s;
+}
+.a1:hover::after {
+    content: "➜";
+    transition: 0.4s;
+}
+.a1:active {
+    background: linear-gradient(45deg, coral, cyan, green, gold);
+    transition: 0.1s;
+}
+.pfooter {
+    text-indent: 2cm;
+    margin-top: 20px;
+    font-size: 60px;
+}
+button:hover {
+    background-color: rgb(235, 232, 232);
+    transition: 0.1s;
+    border: 0px;
+    border-radius: 5px;
+    align-items: center;
+}
+.b1 {
+    background-color: white;
+    border: 0px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.b1:hover {
+    background-color: bisque;
+    color: #5c5c5c;
+    transition: 0.1s;
+}
+.containertext {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+button:active {
+    background-color: rgb(204, 255, 192);
+    color: rgb(158, 158, 158);
+    border-radius: 2cm;
+    border: 0px;
+    transition: 0.1s;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.stillbutton {
+    color: rgb(163, 159, 159)
+}
+.logo-school {
+    justify-content: center;
+    animation: logo 1s ease-in;
+    width: 150px;
+}
+.b1 {
+    background-color: white;
+    border: 0px;
+    text-align: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.justtext {
+    background-color: #5C5C5C;
+    color: aliceblue;
+    width: 7cm;
+    font-size: 30px;
+    animation-name: title;
+    animation-duration: 1s;
+    animation-fill-mode: none;
+}
+.widget {
+    width: 300px;
+    height: 200px;
+    margin-left:40px;
+    background-color:rgb(199, 199, 199);
+    border: 0px;
+    border-radius: 10px;
+    text-indent: 20px;
+}
+.footerstart {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #5C5C5C;
+    text-indent: 3cm ;
+    color: white;
+    padding: #5c5c5c;
+}
+.footername {
+    font-size: 35px;
+    color: #c9c9c9;
+    margin-top: 30px;
+}
+.footerend {
+    text-indent: 14cm;
+}
+.news {
+    font-size: 30px;
+}
+.hrnews {
+    width: 30cm;
+    margin-left: 20px;
+}
+@keyframes logo {
+   0% {opacity: 0;}
+   10% {opacity: 0.2;}
+   20% { opacity: 0.5;}
+   30% {opacity: 0.8;}
+   100% {opacity: 1;}
+}
+@keyframes title {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+}
+@keyframes a1class {
+    0% {color: black;}
+    50% {color: #3131ff;}
+    100% {color: black;}
+}

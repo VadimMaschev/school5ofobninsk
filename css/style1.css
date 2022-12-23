@@ -1,0 +1,26 @@
+.teacher_ {
+    border-radius: 70px;
+    width: 8cm;
+}
+.teachertable {
+    background-color: rgb(224, 224, 224);
+}
+.redirect::after {
+    content: ►;
+    color: rgb(166, 166, 255);
+}
+.ti
+.teachers {
+    display: flex;
+    justify-content: space-between;
+}
+.teachershow {
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+}
+.aboutteacher {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #5c5c5c;
+}
