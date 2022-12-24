@@ -1,21 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Фотоальбом</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Фото-журнал</title>
+        <style>
+            @media screen and (min-width: 400px) and (max-width: 882px) {
+                .vadimmaschevline {
+                    display: none;
+                }
+                .vadimmaschevbutton {
+                    display: none;
+                }
+                .vmhr {
+                    display: none;
+                }
+            }
+            @media screen and (min-width: 390px) and (max-width:844px) {
+                .vadimmaschevline {
+                    display: none;
+                }
+                .vadimmaschevbutton {
+                    display: none;
+                }
+                .vmhr {
+                    display: none;
+                }
+            }
+            @media screen and (min-width: 360px) and (max-width: 740px) {
+                .vadimmaschevline {
+                    display: none;
+                }
+                .vadimmaschevbutton {
+                    display: none;
+                }
+                .vmhr {
+                    display: none;
+                }
+            }
+            @media screen and (min-width: 280px) and (max-width: 653px) {
+                .vadimmaschevline {
+                    display: none;
+                }
+                .vadimmaschevbutton {
+                    display: none;
+                }
+                .vmhr {
+                    display: none;
+                }
+            }
+            .logo {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .vadimmaschevline {
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+            .vadimmaschevbutton {
+                background-color: white;
+                text-decoration: none;
+                border: 0px;
+                border-radius: 40px;
+            }
+            .vadimmaschevbutton:hover {
+                background-color: #ebe9e9;
+                border-radius: 40px;
+                transition: 0.3s;
+            }
+            .vmhr {
+                border: solid 1px #E1E2ED;
+            }
+            .vma {
+                text-decoration: none;
+                color: rgb(0, 189, 126);
+            }
+            h1 {
+                background-color: #5c5c5c;
+                color: white;
+                font-size: 20px;
+            }
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <div class="container">
-            <img src="логотип.jpg" class="logo-school">
-            <nav><button><a class="stillbutton" href="teachers.html">Наши учителя</a></button><button><a class="stillbutton" href="breakfastandlunch.html">Завтраки и обеды</a></button><button><a class="stillbutton" href="news.html">Новости школы</a></button><button><a class="stillbutton" href="map.html">Полная карта сайта</a></button></nav>
-            </div>
-        </header>
-        <article>
-            <span class="justtext">Фотоальбом</span>
-        </article>
-        <footer>
-            
-        </footer>
+        <div class="vadimmaschevline"><button class="vadimmaschevbutton"><a href="C:\Users\водим\Documents\GitHub\schoolsite\index.html" class="vma">Главная страница</a></button><button class="vadimmaschevbutton"><a href="teachers/teachers.html" class="vma">Учителя</a></button> <button class="vadimmaschevbutton"><a href="basic/photojournal.html" class="vma">Фото-журнал</a></button><button class="vadimmaschevbutton"><a href="basic/news.html" class="vma">Новости школы</a></button></div><hr class="vmhr">
+        <div class="logo">
+        <img src="C:\Users\водим\Documents\GitHub\schoolsite\jpg\логотип.jpg" width="300px"></div><hr>
+        <div class="logo">
+        <h1>Фото-журнал</h1></div>
     </body>
 </html>
